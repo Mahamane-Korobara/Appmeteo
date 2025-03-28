@@ -163,7 +163,7 @@ export const miseAJourMeteo = function (lat, lon) {
             <h2 class="titre card-titre">Maintenant</h2>
             <div class="emballage">
                 <p class="heading">${parseInt(temp)}°<sup>c</sup></p>
-                <img src="./assets/images/weather_icons/${icon}.png" width="64" alt="${description}" class="meteo-icon">
+                <img src="./actifs/images/weather_icons/${icon}.png" width="64" alt="${description}" class="meteo-icon">
             </div>
 
             <p class="body-3">${description}</p>
@@ -355,7 +355,7 @@ export const miseAJourMeteo = function (lat, lon) {
                    
                     <div class="card card-ms slider-card">
                         <p class="body-3">${module.getheures(dateTimeUnix, timezone)}</p>
-                        <img src="./assets/images/weather_icons/${icon}.png" width="48" height="48" loading="lazy" alt="${description}" class="meteo-icon" title="${description}">
+                        <img src="./actifs/images/weather_icons/${icon}.png" width="48" height="48" loading="lazy" alt="${description}" class="meteo-icon" title="${description}">
                         <p class="body-3">${parseInt(temp)}&deg;</p>
                     </div>
                 `;
@@ -369,7 +369,7 @@ export const miseAJourMeteo = function (lat, lon) {
 
                    <div class="card card-ms slider-card">
                         <p class="body-3">${module.getheures(dateTimeUnix, timezone)}</p>
-                        <img src="./assets/images/weather_icons/direction.png" width="48" height="48" loading="lazy" alt="direction" style="transform: rotate(${windDirection - 180}deg)" class="meteo-icon">
+                        <img src="./actifs/images/weather_icons/direction.png" width="48" height="48" loading="lazy" alt="direction" style="transform: rotate(${windDirection - 180}deg)" class="meteo-icon">
                         <p class="body-3">${parseInt(module.mps_a_kmh(windSpeed))} km/h</p>
                     </div>
                 `;
@@ -408,7 +408,7 @@ export const miseAJourMeteo = function (lat, lon) {
                 li.innerHTML = `
                    
                    <div class="icon-wrapper">
-                        <img src="./assets/images/weather_icons/${icon}.png" width="36" height="36" alt="${description}" class="meteo-icon" title="${description}">
+                        <img src="./actifs/images/weather_icons/${icon}.png" width="36" height="36" alt="${description}" class="meteo-icon" title="${description}">
                         <span class="span">
                             <p class="titre-2">${parseInt(temp_max)}&deg;</p>
                         </span>
