@@ -1,6 +1,7 @@
 # Appmeteo
 
 Appmeteo est une application web moderne permettant d'afficher la météo actuelle, les prévisions sur 5 jours, la qualité de l'air et d'autres informations météorologiques pour n'importe quelle ville dans le monde. Elle utilise l'API OpenWeatherMap et propose une interface utilisateur responsive et interactive.
+demo : https://mahamane-korobara.github.io/Appmeteo/
 
 ## Fonctionnalités
 
